@@ -70,6 +70,8 @@ pickle-email-*.html
 /bin/
 /vendor/
 /app/assets/*
+!/app/assets/javascripts/.keep
+/app/assets/javascripts/
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
 
